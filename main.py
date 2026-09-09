@@ -51,10 +51,10 @@ import os
 import requests
 from dotenv import load_dotenv
 
+load_dotenv()
+token = os.getenv('YANDEX_DISC_TOKEN')
 
 def create_folder_yandex_disc(name_folder):
-    load_dotenv()
-    token = os.getenv('YANDEX_DISC_TOKEN')
     url = 'https://cloud-api.yandex.net/v1/disk/resources'
     headers = {'Authorization': f'OAuth {token}'}
     params = {'path': f'{name_folder}'}
@@ -63,10 +63,7 @@ def create_folder_yandex_disc(name_folder):
     data = response.json()
     status = response.status_code
     return status
-print(create_folder_yandex_disc('test_2'))
-
-
-
+# print(create_folder_yandex_disc('test_2'))
 
 
 
