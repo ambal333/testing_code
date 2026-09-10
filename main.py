@@ -66,18 +66,3 @@ def create_folder_yandex_disc(name_folder):
 # print(create_folder_yandex_disc('test_2'))
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
