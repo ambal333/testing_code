@@ -75,3 +75,6 @@ def db_connection():
 def vk_api_create_user():
     user = 'create.user'
     return user
+def new_ficha_vk_api():
+    a = 1+2
+    return a
