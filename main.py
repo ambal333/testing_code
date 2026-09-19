@@ -27,6 +27,8 @@ def unique_names(mentors: list) -> str:
     result = ', '.join(sorted_names)
     return result
 
+def vk_api_connect():
+    return 'connect'
 # третье задание
 def order_courses(courses: list, durations: list) -> str:
     durations_dict = {}
