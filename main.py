@@ -65,4 +65,5 @@ def create_folder_yandex_disc(name_folder):
     return status
 # print(create_folder_yandex_disc('test_2'))
 
-
+def db_connection():
+    pass
