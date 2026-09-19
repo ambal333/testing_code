@@ -71,3 +71,7 @@ def create_folder_yandex_disc(name_folder):
 
 def db_connection():
     pass
+
+def vk_api_create_user():
+    user = 'create.user'
+    return user
