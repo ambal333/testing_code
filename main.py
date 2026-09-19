@@ -71,3 +71,7 @@ def create_folder_yandex_disc(name_folder):
 
 def db_connection():
     pass
+
+def new_ficha_vk_api():
+    a = 1+2
+    return a
