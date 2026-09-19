@@ -48,6 +48,8 @@ def order_courses(courses: list, durations: list) -> str:
     result='\n'.join(result)
     return result
 
+def new_function():
+    pass
 # Задача №2 Автотест API Яндекса
 import os
 import requests
